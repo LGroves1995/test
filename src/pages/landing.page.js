@@ -13,6 +13,7 @@ class LandingPage extends page {
         await browser.pause(3000);
         await this.LogOffBtn.waitForDisplayed();
         await this.LogOffBtn.click();
+        await browser.pause(3000);
     }
 
     async clickDayEnd () {

@@ -92,7 +92,7 @@ export const config: WebdriverIO.Config = {
         // excludeDriverLogs: ['bugreport', 'server'],
     },
     {
-        browserName: 'MicrosoftEdge',
+        //browserName: 'MicrosoftEdge',
     },
 
     ],

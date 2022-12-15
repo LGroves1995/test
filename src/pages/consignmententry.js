@@ -17,6 +17,7 @@ get countyField () {return $ ('//*[@id="CE_DeliveryCounty"]') }
 get deliveryServiceList () { return $ ('//*[@id="CE_DeliveryDetails"]/table/tbody/tr[2]/td[4]/span[1]/span') }
 get contactField () {return $ ('//*[@id="CE_DeliveryContact"]') }
 get telephoneField () { return $ ('//*[@id="CE_DeliveryTelephone"]') }
+get telephone2Field () { return $ ('input[id="CE_DeliveryTelephone2"]') }
 get palletTypeField () {return $ ('//*[@id="CE_PalletDetails"]/table/tbody/tr/td[2]/span/span/span[1]') }
 get quantityField () { return $ ('//*[@id="CE_PalletDetails"]/table/tbody/tr/td[4]/span/span/input[1]') }
 get weightField () {return $ ('//*[@id="CE_PalletDetails"]/table/tbody/tr/td[6]/span/span/input[1]') }
@@ -43,6 +44,8 @@ get limitedQuantityTxtBox () { return $ ('//*[@id="CE_UNNumberInput"]')}
 get limitedQuantitySubmitBtn () { return $ ('#CE_UNNumberButton')}
 get copTickBox() { return $ ('//*[@id="CE_OwnPaperwork"]')}
 get copUploadButton () { return $ ('//*[@id="CopImageFilesFromConsignmentEntry"]')} 
+get dedicatedTimeField () { return $ ('input[id="CE_DeliveryDedicatedTime"]')}
+get dedicatedDayField () { return $ ('input[id="CE_DeliveryDedicatedDate"]')}
 
 //Account Code Field
 async setAccountCode (accountCode) {
@@ -130,6 +133,13 @@ async setContactField (Contact) {
 async setTelephoneField (Phone) {
     await this.telephoneField.click();
     await this.telephoneField.setValue(Phone);
+    await pressButton("Tab");
+}
+
+//Telephone Number 2 Field
+async setTelephone2Field (Phone2) {
+    await this.telephone2Field.click();
+    await this.telephone2Field.setValue(Phone2);
     await pressButton("Tab");
 }
 
@@ -311,6 +321,22 @@ async uploadCOPfile () {
     const filePath = basepath.join(__dirname, '../data/testImageFile.jpg');
     await this.copUploadButton.setValue(filePath);
     await browser.pause(5000);
+}
+
+//Dedicated Time 
+async setDedicatedTime (dedicatedTime) {
+    await this.dedicatedTimeField.waitForDisplayed();
+    await this.dedicatedTimeField.click();
+    await this.dedicatedTimeField.setValue(dedicatedTime)
+    await pressButton ("Tab");
+}
+
+//Dedicated Day
+async setDedicatedDay (dedicatedDay) {
+    await this.dedicatedDayField.waitForDisplayed();
+    await this.dedicatedDayField.click();
+    await this.dedicatedDayField.setValue(dedicatedDay);
+    await pressButton ("Tab");
 }
 
 }

@@ -163,3 +163,11 @@ When ('I click the Own Paperwork button', async function () {
 When ('I upload the Own Paperwork File', async function () {
     await ConsignmentEntry.uploadCOPfile();
 })
+
+When ('I enter {string} as my Dedicated Time', async function (dedicatedTime) {
+    await ConsignmentEntry.setDedicatedTime(dedicatedTime);
+});
+
+When ('I enter {string} as my Dedicated Time', async function (dedicatedDay) {
+    await ConsignmentEntry.setDedicatedDay(dedicatedDay);
+});
