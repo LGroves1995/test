@@ -9,6 +9,8 @@ class LandingPage extends page {
     
 
     async clickLogOff () {
+        
+        await browser.pause(3000);
         await this.LogOffBtn.waitForDisplayed();
         await this.LogOffBtn.click();
     }

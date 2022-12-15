@@ -1,4 +1,4 @@
-@smoke
+@ConnectRegression @LoginRegression
 Feature: Test that the TPN Connect login function works
     As a user
     I want to be able to login and securely use TPN Connect
