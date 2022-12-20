@@ -48,12 +48,16 @@ When ('I have set {string} as the Delivery Service', async function (DelService)
     await ConsignmentEntry.setDeliveryService(DelService);
 });
 
-When ('I have enetered {string} as the Contact', async function (Contact) {
+When ('I have entered {string} as the Contact', async function (Contact) {
     await ConsignmentEntry.setContactField(Contact);
 });
 
-When ('I have enetered {string} as the Telephone Number', async function (Phone) {
+When ('I have entered {string} as the Telephone Number', async function (Phone) {
     await ConsignmentEntry.setTelephoneField(Phone);
+});
+
+When ('I have entered {string} as the Telephone Number 2', async function (Phone2) {
+    await ConsignmentEntry.setTelephone2Field(Phone2);
 });
 
 When ('I have added {string} as the Pallet Type', async function (PalletType) {
@@ -168,6 +172,6 @@ When ('I enter {string} as my Dedicated Time', async function (dedicatedTime) {
     await ConsignmentEntry.setDedicatedTime(dedicatedTime);
 });
 
-When ('I enter {string} as my Dedicated Time', async function (dedicatedDay) {
+When ('I enter {string} as my Dedicated Day', async function (dedicatedDay) {
     await ConsignmentEntry.setDedicatedDay(dedicatedDay);
 });

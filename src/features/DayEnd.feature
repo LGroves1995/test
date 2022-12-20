@@ -16,5 +16,5 @@ Feature: Test that the TPN Connect day end function works
         
     Examples:
     |UserType         |Username       |Password     |
-    |"Depot User"     |"051051SHAMEK" |"beans"      |
+    |"Depot User"     |"051051SHAMEK" |"summer"      |
           
