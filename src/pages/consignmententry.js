@@ -170,7 +170,7 @@ async setWeightField (PalletWeight) {
 //Consignment Finish Button
 async clickFinish () {
     await this.finishbtn.click();
-    await browser.pause(7000);
+    await browser.pause(5000);
 }
 
 //Successful Entry Value
