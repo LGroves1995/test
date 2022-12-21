@@ -91,9 +91,11 @@ export const config: WebdriverIO.Config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
     },
-    {
-    //    browserName: 'MicrosoftEdge',
-    },
+    /* {
+     browserName: 'MicrosoftEdge',
+    }, */
+
+
 
     ],
     //

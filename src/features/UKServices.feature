@@ -44,6 +44,12 @@ Background:
     |"Implant User"   |"051APLACE"    |"summer"    | "C3206"    | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "PMTL"     | "LukeG"  | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |
     |"Implant User"   |"051APLACE"    |"summer"    | "C3209"    | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "SAT"      | "LukeG"  | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |
     |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "SATL"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "B24 0SG"  | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "RDCD"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "B24 0SG"  | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "RDCN"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "IM1"      | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EBIT"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "IM1"      | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EBKI"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "IM1"      | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EEC"      | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
+    |"Implant User"   |"051APLACE"    |"summer"    | "C3212"    | "IM1"      | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EECL"     | "LukeG"  | "0123456789" |"0123456789" |"HH"   | "1"      | "150"  |  
 
 @UKImplantTimedServices @C3239 @C3227 @C3230 @C3233
     Scenario Outline: Testing different Timed Services Entries for Implant Users       
