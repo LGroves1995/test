@@ -32,8 +32,8 @@ Background:
 
     Examples:
     |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
-    |"Depot User"     |"051051SHAMEK" |"summer"     |"SAN"      | "C2322"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
-    |"Hub User"       |"099phillipt"  |"summer"     |"KJ"       | "C2323"     | "RH11 0AA" | "LukeG"    |"TPN Avenue" | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Depot User"     |"051051SHAMEK" |"summer"     |"SAN"      | "C2322"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"099phillipt"  |"summer"     |"KJ"       | "C2323"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2287
     Scenario Outline: Testing Standard Consignment Entry for Implant User 
