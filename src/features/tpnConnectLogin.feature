@@ -3,10 +3,10 @@ Feature: Test that the TPN Connect login function works
     As a user
     I want to be able to login and securely use TPN Connect
 
-    Background:
+  Background:
         Given I open the site "/"
 
-       @C2313 @C2286 @C2312 @ValidLoginRegression
+  @C2313 @C2286 @C2312 @ValidLoginRegression
         Scenario Outline: a valid user can login successfully with correct  <UserType> password and username         
         Given I have entered <Username> as userName
         Given I have entered <Password> as password
@@ -16,11 +16,11 @@ Feature: Test that the TPN Connect login function works
 
         Examples:
           |UserType         |Username       |Password     |
-          |"Implant user"   |"051APLACE"    |"summer"      |
-          |"Depot user"     |"051051SHAMEK" |"summer"      |
-          |"Hub user"       |"099phillipt"  |"summer"      |
+          |"Implant user"   |"051APLACE"    |"beans"      |
+          |"Depot user"     |"051051SHAMEK" |"beans"      |
+          |"Hub user"       |"099phillipt"  |"beans"      |
           
-        @C3149 @C3150 @C3151 @InvalidLoginRegression
+  @C3149 @C3150 @C3151 @InvalidLoginRegression
         Scenario Outline: a invalid user is attempting to login using an correct <UserType> username but wrong password     
         Given I have entered <Username> as userName
         Given I have entered <Password> as password
