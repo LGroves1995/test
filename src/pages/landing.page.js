@@ -6,7 +6,7 @@ class LandingPage extends page {
     get DayEndBtn () { return $('#menu > li:nth-child(2)') }
     get dayendConfirmation () { return $ ('#submitDepotDayEnd') }
     get consignmententryBtn () { return $ ("li[data-action='Consignment Entry'] span") }
-    
+    get collectionreqBtn () {return $ ("li[data-action='Collection Request'] span") }
 
     async clickLogOff () {
         
@@ -27,6 +27,15 @@ class LandingPage extends page {
 
     async clickconsignment () {
         await this.consignmententryBtn.click();
+    }
+
+    async clickCollectionRequestBtn () {          
+        await this.consignmententryBtn.waitForDisplayed(20000);
+        await this.consignmententryBtn.click();      
+        await browser.pause(10000);      
+        await this.collectionreqBtn.waitForDisplayed(20000);         
+        await this.collectionreqBtn.click(); 
+        await browser.pause(10000);  
     }
 
 }

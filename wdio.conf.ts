@@ -203,7 +203,7 @@ export const config: WebdriverIO.Config = {
             './src/steps/when.ts',
             './src/steps/consignmententry.ts',
             './src/steps/consignmententryBrexit.ts',
-            
+            './src/steps/collectionentry.ts',
 
 
             // Or search a (sub)folder for JS files with a wildcard
