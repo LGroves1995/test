@@ -46,6 +46,9 @@ get copTickBox() { return $ ('//*[@id="CE_OwnPaperwork"]')}
 get copUploadButton () { return $ ('//*[@id="CopImageFilesFromConsignmentEntry"]')} 
 get dedicatedTimeField () { return $ ('//*[@id="CE_DeliveryDedicatedTime"]')}
 get dedicatedDayField () { return $ ('input[id="CE_DeliveryDedicatedDate"]')}
+get codTickBox () {return $ ('#CE_ChequeOnDelivery')}
+get pawTickBox () { return $ ('#CE_PalletAndWrap')}
+get rtdTickBox () { return $ ('#CE_RetailDelivery')}
 
 //Account Code Field
 async setAccountCode (accountCode) {
@@ -334,6 +337,24 @@ async setDedicatedDay (dedicatedDay) {
     await this.dedicatedDayField.click();
     await this.dedicatedDayField.setValue(dedicatedDay);
     await pressButton ("Tab");
+}
+
+//Cheque on Delivery
+async clickCODTickBox () {
+    await browser.pause(1000);
+    await this.codTickBox.click();
+}
+
+//Pallet and Wrap
+async clickPAWTickBox () {
+    await browser.pause(1000);
+    await this.pawTickBox.click();
+}
+
+//Retail Delivery
+async clickRTDTickBox () {
+    await browser.pause(1000);
+    await this.rtdTickBox.click();
 }
 
 }

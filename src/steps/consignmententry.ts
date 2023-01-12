@@ -6,7 +6,7 @@ import { Then } from '@cucumber/cucumber';
 import LoginPage from '../pages/login.page'
 import LandingPage from '../pages/landing.page';
 import ConsignmentEntry from '../pages/consignmententry';
-import ConsignmentEntryBrexit from '../pages/consignmententryBrexit';
+import CollectionEntry from '../pages/collectionentry';
 
 
 var docketNumber: String;
@@ -174,4 +174,16 @@ When ('I enter {string} as my Dedicated Time', async function (dedicatedTime) {
 
 When ('I enter {string} as my Dedicated Day', async function (dedicatedDay) {
     await ConsignmentEntry.setDedicatedDay(dedicatedDay);
+});
+
+When ('I click the Cheque on delivery button', async function () {   
+    await ConsignmentEntry.clickCODTickBox();  
+});
+
+When ('I click the Pallet and Wrap button', async function () {   
+    await ConsignmentEntry.clickPAWTickBox();  
+});
+
+When ('I click the Retail Delivery button', async function () {   
+    await ConsignmentEntry.clickRTDTickBox();  
 });

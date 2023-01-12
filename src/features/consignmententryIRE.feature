@@ -667,3 +667,167 @@ Background:
     |"Depot User"     |"setup110" |"beans"     |"test"     | "C2672"     | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "EC"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  |   
     |"Hub User"       |"setup100" |"beans"     |"test"     | "C2674"     | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "EC"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  |
 
+@C2675
+    Scenario Outline: Testing Cheque on Delivery for Implant User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Cheque on delivery button
+    Then I click the Finish button
+    And I see a success message
+    Then I see an 8 digit docket number
+
+    Examples:
+    |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
+    |"Implant User"   |"102ability"   |"beans"     | "C2675"    | "CKC"      | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+
+@C2676 @C2677
+    Scenario Outline: Testing Cheque on Delivery for Depot User/Hub User   
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have set the account code as <AccountCode>
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Cheque on delivery button
+    And I click the Finish button
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2    | Town   | County   | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |"Depot User"     |"setup110"     |"beans"      |"test"     | "C2676"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"setup100"     |"beans"      |"test"     | "C2677"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+
+@C2678
+    Scenario Outline: Testing Pallet on Wrap for Implant User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Pallet and Wrap button
+    Then I click the Finish button
+    And I see a success message
+    Then I see an 8 digit docket number
+
+    Examples:
+    |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
+    |"Implant User"   |"102ability"   |"beans"     | "C2678"    | "CKC"      | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+
+@C2679 @C2680
+    Scenario Outline: Testing Pallet on Wrap for Depot User/Hub User   
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have set the account code as <AccountCode>
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Pallet and Wrap button
+    And I click the Finish button
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2    | Town   | County   | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |"Depot User"     |"setup110"     |"beans"      |"test"     | "C2679"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"setup100"     |"beans"      |"test"     | "C2680"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+
+@C2681
+    Scenario Outline: Testing Retail Delivery for Implant User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Retail Delivery button
+    Then I click the Finish button
+    And I see a success message
+    Then I see an 8 digit docket number
+
+    Examples:
+    |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
+    |"Implant User"   |"102ability"   |"beans"     | "C2681"    | "CKC"      | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+
+@C2682 @C2683
+    Scenario Outline: Testing Retail Delivery for Depot User/Hub User   
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on consignment entry
+    And I have set the account code as <AccountCode>
+    And I have entered the <CustomerRef> as my customer reference
+    And I have entered <Postcode> as the postcode
+    And I have entered <Consignee> as the consignee name
+    And I have entered <Address1> as the address field 1
+    And I have entered <Address2> as the address field 2
+    And I have entered <Town> as the town
+    And I have entered <County> as the county
+    And I have set <DelService> as the Delivery Service
+    And I have entered <Contact> as the Contact
+    And I have entered <Phone> as the Telephone Number
+    And I have added <Pallet> as the Pallet Type
+    And I have added <Quantity> as the Quantity
+    And I have set <Weight> for the weight
+    And I click the Retail Delivery button
+    And I click the Finish button
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2    | Town   | County   | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |"Depot User"     |"setup110"     |"beans"      |"test"     | "C2682"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"setup100"     |"beans"      |"test"     | "C2683"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Dublin"| "Dublin" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |

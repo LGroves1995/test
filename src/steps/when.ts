@@ -19,6 +19,7 @@ import setPromptText from '../support/action/setPromptText';
 import LoginPage from '../pages/login.page';
 import LandingPage from '../pages/landing.page';
 import waitForDisplayed from 'webdriverio/build/commands/element/waitForDisplayed';
+import collectionentry from '../pages/collectionentry';
 
 
 
@@ -40,6 +41,9 @@ When ('I have clicked on consignment entry', async function () {
     await LandingPage.clickconsignment();
 });
 
+When ('I have clicked on collection request', async function () {
+    await collectionentry.clickCollectionRequest();
+});
 // 
 // The statements below are left from the original webdriverio template
 // 
