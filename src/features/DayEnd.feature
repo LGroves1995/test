@@ -6,7 +6,7 @@ Feature: Test that the TPN Connect day end function works
     Background:
     Given I open the site "/"
 
-    @DepotDayEnd
+@DepotDayEnd
     Scenario Outline: a valid depot user can the day end fucntion       
     Given I have logged in to TPN Connect with username <Username> and password <Password>
     When I click on Day End

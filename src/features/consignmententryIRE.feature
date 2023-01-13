@@ -210,7 +210,7 @@ Background:
     |"Hub User"       |"setup100"     |"beans"     |"test"     | "C2649"     | "CKC"      | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Cork"| "Cork" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
 
 @C2650
-    Scenario Outline: Testing XL Consignment Entry for NI Implant User
+    Scenario Outline: Testing XL Consignment Entry to NI for IRE Implant User
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on consignment entry
     And I have entered the <CustomerRef> as my customer reference
@@ -237,7 +237,7 @@ Background:
     |"Implant User"   |"102Ability"    |"beans"    | "C2650"     | "BT10 0TJ" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
 
 @C2651 @C2652
-    Scenario Outline: Testing XL Consignment Entry for NI Depot User/Hub User
+    Scenario Outline: Testing XL Consignment Entry to NI for IRE Depot User/Hub User
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on consignment entry
     And I have set the account code as <AccountCode>
