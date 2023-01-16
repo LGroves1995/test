@@ -39,6 +39,15 @@ get collectionWidthField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbo
 get collectionDepthField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[4]/span/span/input[1]')}
 get collectionHeightField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[6]/span/span/input[1]')}
 get collectionXLWeightField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[8]/span/span/input[1]')}
+get collectionCustomsContactEmailField () { return $ ('//*[@id="CR_CustomsContactEmail"]')}
+get collectionCommodityCodeField () { return $ ('//*[@id="CR_CommodityCode_0"]')}
+get collectionInvoiceValueField () { return $ ('//*[@id="CR_InvoiceValue_0"]')}
+get collectionNetWeightField () { return $ ('//*[@id="CR_NetWeight_0"]')}
+get collectionGrossWeightField () { return $ ('//*[@id="CR_GrossWeight_0"]')}
+get collectionPalletNumberField () { return $ ('//*[@id="CR_Pallets_0"]')}
+get collectionDefermentField () { return $ ('//*[@id="CR_Account_Info"]/tbody/tr[3]/td[2]/span/span/span[1]')}
+get collectionAccountDANField () { return $ ('//*[@id="CR_header_accountNumber"]')}
+get collectionFOBValueField () { return $ ('//*[@id="CR_Account_Info"]/tbody/tr[5]/td[2]/span/span/input[1]')}
 
 //Collection Account Code
 async setCRAccountCode (CRAccountCode) {
@@ -292,6 +301,76 @@ async setCRXLWeight (CRXLWeight) {
     await pressButton("Tab");
     
 }
+
+//Collection Customs Email
+async setCRCustomsEmail (CRCustomsEmail) {
+    await this.collectionCustomsContactEmailField.click();
+    await this.collectionCustomsContactEmailField.setValue(CRCustomsEmail);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Commodity Code
+async setCRCommodityCode (CRCommodityCode) {
+    await this.collectionCommodityCodeField.click();
+    await this.collectionCommodityCodeField.setValue(CRCommodityCode);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Invoice Value 
+async setCRInvoiceValue (CRInvoiceValue) {
+    await this.collectionInvoiceValueField.click();
+    await this.collectionInvoiceValueField.setValue(CRInvoiceValue);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Net Weight
+async setCRNetWeight (CRNetWeight) {
+    await this.collectionNetWeightField.click();
+    await this.collectionNetWeightField.setValue(CRNetWeight);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Gross Weight
+async setCRGrossWeight (CRGrossWeight) {
+    await this.collectionGrossWeightField.click();
+    await this.collectionGrossWeightField.setValue(CRGrossWeight);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Pallet Number
+async setCRPalletNumber (CRPalletNumber) {
+    await this.collectionPalletNumberField.click();
+    await this.collectionPalletNumberField.setValue(CRPalletNumber);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs Deferment Type
+async setCRDefermentType (CRDefermentType) {
+    await browser.pause(5000);
+    await this.collectionDefermentField.click();
+    await this.collectionDefermentField.waitForDisplayed
+    await this.collectionDefermentField.setValue(CRDefermentType);
+    await this.collectionDefermentField.waitForDisplayed
+    await pressButton("Enter");
+    await pressButton("Tab")
+    await browser.pause(5000);
+}
+
+//Collection Customs Account/DAN 
+async setCRAccountDAN (CRAccountDAN) {
+    await this.collectionAccountDANField.click();
+    await this.collectionAccountDANField.setValue(CRAccountDAN);
+    await pressButton("Tab"); 
+}
+
+//Collection Customs FOB Value 
+async setCRFOBValue (CRFOBValue) {
+    await this.collectionFOBValueField.click();
+    await this.collectionFOBValueField.setValue(CRFOBValue);
+    await pressButton("Tab"); 
+    await browser.pause(5000);
+}
+
 
 }
 export default new CollectionEntryPage()

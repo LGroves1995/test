@@ -139,3 +139,39 @@ When('I have set the CR Height as {string}', async function (CRHeight) {
 When('I have set the CR XL Weight as {string}', async function (CRXLWeight) {
     await CollectionEntry.setCRXLWeight(CRXLWeight);
 });
+
+When('I have set the CR Customs Email as {string}', async function (CRCustomsEmail) {
+    await CollectionEntry.setCRCustomsEmail(CRCustomsEmail);
+});
+
+When('I have set the CR Commodity Code as {string}', async function (CRCommodityCode) {
+    await CollectionEntry.setCRCommodityCode(CRCommodityCode);
+});
+
+When('I have set the CR Invoice Value as {string}', async function (CRInvoiceValue) {
+    await CollectionEntry.setCRInvoiceValue(CRInvoiceValue);
+});
+
+When('I have set the CR Net Weight as {string}', async function (CRNetWeight) {
+    await CollectionEntry.setCRNetWeight(CRNetWeight);
+});
+
+When('I have set the CR Gross Weight as {string}', async function (CRGrossWeight) {
+    await CollectionEntry.setCRGrossWeight(CRGrossWeight);
+});
+
+When('I have set the CR Number of Pallets as {string}', async function (CRPalletNumber) {
+    await CollectionEntry.setCRPalletNumber(CRPalletNumber);
+});
+
+When('I have set the CR Deferment Type as {string}', async function (CRDefermentType) {
+    await CollectionEntry.setCRDefermentType(CRDefermentType);
+});
+
+When('I have set the CR AccountDAN as {string}', async function (CRAccountDAN) {
+    await CollectionEntry.setCRAccountDAN(CRAccountDAN);
+});
+
+When('I have set the CR FOB Value as {string}', async function (CRFOBValue) {
+    await CollectionEntry.setCRFOBValue(CRFOBValue);
+});
