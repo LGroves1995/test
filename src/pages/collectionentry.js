@@ -39,7 +39,23 @@ get collectionWidthField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbo
 get collectionDepthField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[4]/span/span/input[1]')}
 get collectionHeightField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[6]/span/span/input[1]')}
 get collectionXLWeightField () { return $ ('//*[@id="CR_PalletDetailsXL"]/table/tbody/tr[2]/td[8]/span/span/input[1]')}
-
+get collectionFVCBtn () { return $ ('//*[@id="CR_showfvc"]')}
+get collectionFVCInsuredNameField () { return $ ('//*[@id="CR_fvcInsuredName"]')}
+get collectionFVCInsuredEmailField () { return $ ('//*[@id="CR_fvcInsuredEmail"]')}
+get collectionFVCInsuredAmountField () { return $ ('//*[@id="CR_FVCWindow"]/div/table/tbody/tr[2]/td[2]/span[1]/span/input[1]')}
+get collectionFVCSubmitBtn () { return $ ('//*[@id="CR_submitfvc"]')}
+get collectionSetViaColDepotList () { return $ ('//*[@id="CR_collectionDepotDetails"]/span[2]/span/span[1]')}
+get collectionSetViaDelDepotBtn () { return $ ('//*[@id="CR_viaDepot"]')}
+get collectionSetViaDelDepotList () { return $ ('//*[@id="CR_viaDepotRow"]/span/span/span[1]')}
+get collectionSetViaDelDepotReasonField () { return $ ('//*[@id="CR_viaDepotReason"]')}
+get collectionSetViaDelDepotSubmitBtn () { return $ ('//*[@id="CR_submitvd"]')}
+get collectionTonneColBox () { return $ ('//*[@id="CR_SevenHalfTonneCollection"]')}
+get collectionTonneDelBox () { return $ ('//*[@id="CR_SevenHalfTonne"]')}
+get collectionLimitedQuantityBox () { return $ ('//*[@id="CR_LimitedQuantity"]')}
+get collectionLimitedQuantityUNField () { return $ ('//*[@id="CR_UNNumberInput"]')}
+get collectionLimitedQuantitySubmitBtn () { return $ ('//*[@id="CR_UNNumberButton"]')} 
+get collectionCOPBox () { return $ ('//*[@id="CR_OwnPaperwork"]')}
+get collectioncopUploadButton () { return $ ('//*[@id="CopImageFilesFromCollectionRequest"]')}
 
 //Collection Account Code
 async setCRAccountCode (CRAccountCode) {
@@ -269,31 +285,145 @@ async clickCollectionSelfDelivery () {
 //Collection XL Pallet Width 
 async setCRWidth (CRWidth) {
     await this.collectionWidthField.setValue(CRWidth);
-    await pressButton("Tab");
-    
+    await pressButton("Tab");   
 }
 
 //Collection XL Pallet Depth 
 async setCRDepth (CRDepth) {
     await this.collectionDepthField.setValue(CRDepth);
-    await pressButton("Tab");
-    
+    await pressButton("Tab");  
 }
 
 //Collection XL Pallet Height
 async setCRHeight (CRHeight) {
     await this.collectionHeightField.setValue(CRHeight);
-    await pressButton("Tab");
-    
+    await pressButton("Tab");  
 }
 
 //Collection XL Pallet Weight
 async setCRXLWeight (CRXLWeight) {
     await this.collectionXLWeightField.setValue(CRXLWeight);
-    await pressButton("Tab");
-    
+    await pressButton("Tab");  
 }
 
+//Collection Set FVC 
+async clickCRFVCBtn () {
+    await this.collectionFVCBtn.click();
+    await pressButton ("Tab"); 
+}
+
+//Collection FVC Insured Name 
+async setCRFVCName (CRInsuredName) {
+    await this.collectionFVCInsuredNameField.waitForDisplayed();
+    await this.collectionFVCInsuredNameField.click();
+    await this.collectionFVCInsuredNameField.setValue(CRInsuredName);
+    await pressButton("Tab");
+    await browser.pause (2000);
+}
+
+//Collection FVC Insured Email 
+async setCRFVCEmail (CRInsuredEmail) {
+    await this.collectionFVCInsuredEmailField.click();
+    await this.collectionFVCInsuredEmailField.setValue(CRInsuredEmail);
+    await browser.pause (2000);
+}
+
+//Collection FVC Insured Amount 
+async setCRFVCAmount (CRInsuredAmount) {
+    await this.collectionFVCInsuredAmountField.setValue(CRInsuredAmount);
+    await pressButton("Enter");
+}
+
+//Collection FVC Submit
+async clickCRFVCSubmit () {
+    await this.collectionFVCSubmitBtn.click();
+    await browser.pause(3000);
+}
+
+//Collection Set Collection Depot
+async setCRCollectionDepot (CRCollectionDepot) {
+    await this.collectionSetViaColDepotList.click();
+    await this.collectionSetViaColDepotList.waitForDisplayed
+    await this.collectionSetViaColDepotList.setValue(CRCollectionDepot);
+    await this.collectionSetViaColDepotList.waitForDisplayed
+    await pressButton("Enter");
+    await pressButton("Tab")
+    await browser.pause(5000);
+}
+
+//Collection Set Delivery Depot
+async clickCRSetViaDepot () {
+    await this.collectionSetViaDelDepotBtn.click();
+    await browser.pause(3000);
+}
+
+//Collection Set Delivery Depot Number
+async setCRDeliveryDepot (CRDeliveryDepot) {
+    await this.collectionSetViaDelDepotList.click();
+    await this.collectionSetViaDelDepotList.waitForDisplayed();
+    await this.collectionSetViaDelDepotList.setValue(CRDeliveryDepot);
+    await this.collectionSetViaDelDepotList.waitForDisplayed();
+    await pressButton("Enter");
+    await pressButton("Tab")
+    await browser.pause(5000);
+}
+
+//Collection Set Delivery Depot Reason
+async setCRDeliveryDepotReason (CRDeliveryDepotReason) {
+    await this.collectionSetViaDelDepotReasonField.click();
+    await this.collectionSetViaDelDepotReasonField.setValue(CRDeliveryDepotReason);
+    await pressButton("Tab");
+}
+
+//Collection Set Delivery Submit
+async clickCRDeliveryDepotSubmit () {
+    await this.collectionSetViaDelDepotSubmitBtn.click();
+    await browser.pause(5000);
+}
+
+//Collection 7.5 Tonne Collection
+async clickCRTonneColBox () {
+    await this.collectionTonneColBox.click();
+    await browser.pause(2000);
+}
+
+//Collection 7.5 Tonne Delivery
+async clickCRTonneDelBox () {
+    await this.collectionTonneDelBox.click();
+    await browser.pause(2000);
+}
+
+//Collection Limited Quantity
+async clickCRLimitedQuantity () {
+    await this.collectionLimitedQuantityBox.click.apply();
+    await browser.pause(1000);
+}
+
+//Collection Limited Quantity UN
+async setCRLimitedQuantityUN (CRLimitedQuantityUN) {
+    await this.collectionLimitedQuantityUNField.click();
+    await this.collectionLimitedQuantityUNField.setValue(CRLimitedQuantityUN);
+    await browser.pause(2000);
+}
+
+//Collection Limited Quantity Submit 
+async clickCRLimitedQuantitySubmit () {
+    await this.collectionLimitedQuantitySubmitBtn.click();
+    await browser.pause(3000);
+}
+
+//Collection COP Button
+async clickCRCOPBox () { 
+    await browser.pause(3000);
+    await this.collectionCOPBox.click(); 
+}
+
+//Collection COP File Upload
+async clickCRuploadCOPfile () {
+    const filePath = basepath.join(__dirname, '../data/testImageFile.jpg');
+    await this.collectioncopUploadButton.setValue(filePath);
+    await browser.pause(5000);
+}
 
 }
 export default new CollectionEntryPage()

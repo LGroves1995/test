@@ -138,3 +138,70 @@ When('I have set the CR XL Weight as {string}', async function (CRXLWeight) {
     await CollectionEntry.setCRXLWeight(CRXLWeight);
 });
 
+When('I have clicked the CR FVC Button', async function () {
+    await CollectionEntry.clickCRFVCBtn();
+});
+
+When('I have set the CR Insured Name as {string}', async function (CRInsuredName) {
+    await CollectionEntry.setCRFVCName(CRInsuredName);
+});
+
+When('I have set the CR Insured Email as {string}', async function (CRInsuredEmail) {
+    await CollectionEntry.setCRFVCEmail(CRInsuredEmail);
+});
+
+When('I have set the CR Insured Amount as {string}', async function (CRInsuredAmount) {
+    await CollectionEntry.setCRFVCEmail(CRInsuredAmount);
+});
+
+When('I have clicked the CR FVC Submit', async function () {
+    await CollectionEntry.clickCRFVCSubmit();
+});
+
+When('I have set the CR Collection Depot as {string}', async function (CRCollectionDepot) {
+    await CollectionEntry.setCRCollectionDepot(CRCollectionDepot);
+});
+
+When('I have clicked set via CR Delivery Depot', async function () {
+    await CollectionEntry.clickCRSetViaDepot();
+});
+
+When('I have set via CR Delivery Depot as {string}', async function (CRDeliveryDepot) {
+    await CollectionEntry.setCRDeliveryDepot(CRDeliveryDepot);
+});
+
+When('I have set via CR Delivery Depot reason as {string}', async function (CRDeliveryDepotReason) {
+    await CollectionEntry.setCRDeliveryDepotReason(CRDeliveryDepotReason);
+});
+
+When('I have clicked set via CR Delivery Depot Submit', async function () {
+    await CollectionEntry.clickCRDeliveryDepotSubmit();
+});
+
+When('I have clicked 7.5 Tonne for CR Collection', async function () {
+    await CollectionEntry.clickCRTonneColBox();
+});
+
+When('I have clicked 7.5 Tonne for CR Delivery', async function () {
+    await CollectionEntry.clickCRTonneDelBox();
+});
+
+When('I have clicked CR Limited Quantity', async function () {
+    await CollectionEntry.clickCRLimitedQuantity();
+});
+
+When('I have set CR Limited Quantity UN as {string}', async function (CRLimitedQuantityUN) {
+    await CollectionEntry.setCRLimitedQuantityUN(CRLimitedQuantityUN);
+});
+
+When('I have clicked CR Limited Quantity Submit', async function () {
+    await CollectionEntry.clickCRLimitedQuantitySubmit();
+});
+
+When('I have clicked CR COP Box', async function () {
+    await CollectionEntry.clickCRCOPBox();
+});
+
+When('I have uploaded CR own paperwork', async function () {
+    await CollectionEntry.clickCRuploadCOPfile();
+});
