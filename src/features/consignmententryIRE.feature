@@ -103,7 +103,7 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | CustomerEmail   | CommodityCode | InvoiceValue | NetWeight | GrossWeight | NumberPallets | DefermentType | AccountDAN   | FOB   | InvoiceNumber | IncoTerms | ExporterEORI    | ImporterEORI    | ImporterPostcode |
-    |"Implant User"   |"102Ability"   |"beans"     | "C2644"    | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "EC"       | "LukeG" | "0123456789" | "FF"   | "1"      | "150"  |"LukeG@LukeG.com"| "7326909890"  | "5525"       | "50"      | "60"        | "1"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"    |"GB989853334000" | "RH11 0AA"       |
+    |"Implant User"   |"102Ability"   |"beans"     | "C2644"    | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "EC"       | "LukeG" | "0123456789" | "FF"   | "1"      | "150"  |"LukeG@LukeG.com"| "3214109000"  | "5525"       | "50"      | "60"        | "1"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"    |"GB989853334000" | "RH11 0AA"       |
 
 @C2645 @C2646
     Scenario Outline: Testing Standard Brexit Consignment Entry for Depot/Hub User 
@@ -150,8 +150,8 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2   | Town        | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight | CustomerEmail   | CommodityCode | InvoiceValue | NetWeight | GrossWeight | NumberPallets | DefermentType | AccountDAN   | FOB   | InvoiceNumber | IncoTerms | ExporterEORI| ImporterEORI     | ImporterPostcode |
-    |"Depot User"     |"setup110"     |"beans"     |"test"     | "C2645"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "FF"   | "2"      | "150"  |"LukeG@LukeG.com"| "7326909890"  | "5525"       | "50"      | "60"        | "2"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"| "GB989853334000" | "RH11 0AA"       |  
-    |"Hub User"       |"setup100"     |"beans"     |"test"     | "C2646"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "FF"   | "2"      | "150"  |"LukeG@LukeG.com"| "7326909890"  | "5525"       | "50"      | "60"        | "2"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"| "GB989853334000" | "RH11 0AA"       |
+    |"Depot User"     |"setup110"     |"beans"     |"test"     | "C2645"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "FF"   | "2"      | "150"  |"LukeG@LukeG.com"| "3214109000"  | "5525"       | "50"      | "60"        | "2"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"| "GB989853334000" | "RH11 0AA"       |  
+    |"Hub User"       |"setup100"     |"beans"     |"test"     | "C2646"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "FF"   | "2"      | "150"  |"LukeG@LukeG.com"| "3214109000"  | "5525"       | "50"      | "60"        | "2"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "IE4862757G"| "GB989853334000" | "RH11 0AA"       |
 
 @C2647
     Scenario Outline: Testing XL Consignment Entry for Implant User
