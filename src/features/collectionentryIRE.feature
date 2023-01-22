@@ -247,7 +247,7 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| CCustomEmail   | CCommodityCode | CInvoiceValue | CNetWeight| CGrossWeight |CPalletNumber | CDefermentType| CAccountDAN | CFOBValue |CInvoiceNumber | CIncoTerms |CCurrency|CExporterEORI   |CImporterEORI| CImporterPostcode |
-    |"Depot User"     |"051051SHAMEK" |"beans"     | "1001"      |"C2727"      | "SA10 6AA"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"SSSS"    | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |"luke@luke.com" |"9026108900"    |"5525"         | "50"      | "50"         | "1"          | "Importer"    | "1234567"   | "5525"    |"1234567"      | "DAP"      |"GBP"    |"GB989853334000"|"IE4862757G" | "CKC"             |
+    |"Depot User"     |"setup102"     |"beans"     | "1001"      |"C2727"      | "SA10 6AA"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"SSSS"    | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |"luke@luke.com" |"9026108900"    |"5525"         | "50"      | "50"         | "1"          | "Importer"    | "1234567"   | "5525"    |"1234567"      | "DAP"      |"GBP"    |"GB989853334000"|"IE4862757G" | "CKC"             |
     |"Hub User"       |"100avrilb"    |"beans"     | "tes"       |"C2728"      | "LS10 1EE"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "ND"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"EC"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |"luke@luke.com" |"9026108900"    |"5525"         | "50"      | "50"         | "1"          | "Importer"    | "1234567"   | "5525"    |"1234567"      | "DAP"      |"EUR"    |"GB989853334000"|"IE4862757G" | "CKC"             |
 
 @C2849
@@ -332,7 +332,7 @@ Background:
     |"Depot User"     |"setup116"     |"beans"     | "1344"      |"C2850"     | "DN0"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "XL"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKN"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"XL"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "360"   | "240"  | "1000"   |"200"  |
     |"Hub User"       |"100avrilb"    |"beans"     | "tes"       |"C2851"     | "CKN"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "XL"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKW"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"XL"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "360"   | "240"  | "1000"   |"200"  |
 
-@C2452
+@C2852
     Scenario Outline: Testing IRE FVC Collection Entry for Implant User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -374,9 +374,9 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| CInsuredName | CInsuredEmail  | CInsuredAmount|
-    |"Implant User"   |"051APLACE"    |"beans"     | "C2452"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"      |"luke@lukeg.com"| "100.00"      |
+    |"Implant User"   |"114LCRF"      |"beans"     | "C2852"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"      |"luke@lukeg.com"| "100.00"      |
 
-@C2453 @C2454
+@C2853 @C3528
     Scenario Outline: Testing FVC Collection Entry for Depot/Hub User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -419,10 +419,10 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CInsuredName | CInsuredEmail  | CInsuredAmount|
-    |"Depot User"     |"051051SHAMEK" |"beans"     | "SAN"       | "C2453"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"AM"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"     |"luke@lukeg.com"| "100.00"      |
-    |"Hub User"       |"099phillipt"  |"beans"     | "34"        | "C2454"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"AM"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"     |"luke@lukeg.com"| "100.00"      |
+    |"Depot User"     |"setup116"     |"beans"     | "1344"      | "C2853"     | "DN0"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "ND"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKN"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"     |"luke@lukeg.com"| "100.00"      |
+    |"Hub User"       |"099phillipt"  |"beans"     | "tes"       | "C3528"     | "WT"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"AM"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "LukeG"     |"luke@lukeg.com"| "100.00"      |
 
-@C2579
+@C2855
     Scenario Outline: Testing Local Postcode Collection Entry for Implant User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -459,9 +459,9 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
-    |"Implant User"   |"051APLACE"    |"beans"     | "C2579"     | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"TN5 7DL"  | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+    |"Implant User"   |"114LCRF"      |"beans"     | "C2855"     | "CKN"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"WT"       | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
-@C2580 @C2581
+@C2856 @C2857
     Scenario Outline: Testing Local Postcode Collection Entry for Depot/Hub User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -499,10 +499,10 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
-    |"Depot User"     |"051051SHAMEK" |"beans"     | "SAN"       | "C2580"     | "SA10 6AA"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"TN5 7DL"  | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
-    |"Hub User"       |"099phillipt"  |"beans"     | "34"        | "C2581"     | "LS10 1EE"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"B24 0SG"  | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+    |"Depot User"     |"setup102"     |"beans"     | "ABM001"    | "C2856"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"WT"       | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+    |"Hub User"       |"100avrilb"    |"beans"     | "tes"       | "C2857"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
-@C2604 @C2605
+@C2858 @C2859
     Scenario Outline: Testing Set Collection Depot Collection Entry for Depot/Hub User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -541,10 +541,10 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CCollectionDepot|
-    |"Depot User"     |"051051SHAMEK" |"beans"     | "SAN"       |"C2604"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"          |
-    |"Hub User"       |"099phillipt"  |"beans"     | "34"        |"C2605"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"          |
+    |"Depot User"     |"051051SHAMEK" |"beans"     | "ABM001"    |"C2858"      | "CKN"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"WX"       | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "129"          |
+    |"Hub User"       |"099phillipt"  |"beans"     | "tes"       |"C2859"      | "CKN"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKW"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "107"          |
 
-@C2608 @C2609
+@C2862 @C2863
     Scenario Outline: Testing Set Delivery Depot Collection Entry for Depot/Hub User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on collection request
@@ -586,5 +586,173 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CDeliveryDepot|CDeliveryDepotReason                    |
-    |"Depot User"     |"051051SHAMEK" |"beans"     | "SAN"       |"C2608"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"        |"This is an Automated Test ran by LukeG"|
-    |"Hub User"       |"099phillipt"  |"beans"     | "34"        |"C2609"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"        |"This is an Automated Test ran by LukeG"|
+    |"Depot User"     |"setup116"     |"beans"     | "ADPOL1"    |"C2862"      | "WT"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "129"        |"This is an Automated Test ran by LukeG"|
+    |"Hub User"       |"100avrilb"    |"beans"     | "tes"       |"C2863"      | "WT"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "129"        |"This is an Automated Test ran by LukeG"|
+
+@C3529
+    Scenario Outline: Testing COP No image upload Collection Entry for Implant User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on collection request
+    And I have set the Collection Customer Ref as <CCustomerRef>
+    And I have clicked CR COP Box
+    And I have set the Collection Postcode as <CPostcode>
+    And I have set the Consignor as <Consignor>
+    And I have set the Collection Address 1 as <CAddress1>
+    And I have set the Collection Address 2  as <CAddress2>
+    And I have set the Collection Town as <CTown>
+    And I have set the Collection County as <CCounty>
+    And I have set the Collection Service as <CService>
+    And I have set the Collection Contact as <CContact>
+    And I have set the Collection Phone 1 as <CPhone1>
+    And I have set the Collection Phone 2 as <CPhone2>
+    And I have set the Collection Email as <CEmail>
+    And I have set the CR Delivery Postcode as <CDPostcode>
+    And I have set the CR Consignee as <CConsignee>
+    And I have set the CR Delivery Address 1 as <CDAddress1>
+    And I have set the CR Delivery Address 2 as <CDAddress2>
+    And I have set the CR Delivery Town as <CDTown>
+    And I have set the CR Delivery County as <CDCounty>
+    And I have set the CR Delivery Service as <CDService>
+    And I have set the CR Delivery Contact as <CDContact>
+    And I have set the CR Delivery Phone 1 as <CDPhone1>
+    And I have set the CR Delivery Phone 2 as <CDPhone2>
+    And I have set the CR Delivery Email as <CDEmail>
+    And I have set the CR Pallet Type as <CPallet>
+    And I have set the CR Quantity as <CQuantity>
+    And I have set the CR Weight as <CWeight>
+    And I have clicked CR COP Box
+    And I have clicked the Collection Finish
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password    |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|
+    |"Implant User"   |"114LCRF"      |"beans"     | "C3529"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+
+@C3530 @C3531
+    Scenario Outline: Testing COP No image upload Collection Entry for Depot/Hub User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on collection request
+    And I have set the Collection Account Code as <CAccountCode>
+    And I have set the Collection Customer Ref as <CCustomerRef>
+    And I have set the Collection Postcode as <CPostcode>
+    And I have set the Consignor as <Consignor>
+    And I have set the Collection Address 1 as <CAddress1>
+    And I have set the Collection Address 2  as <CAddress2>
+    And I have set the Collection Town as <CTown>
+    And I have set the Collection County as <CCounty>
+    And I have set the Collection Service as <CService>
+    And I have set the Collection Contact as <CContact>
+    And I have set the Collection Phone 1 as <CPhone1>
+    And I have set the Collection Phone 2 as <CPhone2>
+    And I have set the Collection Email as <CEmail>
+    And I have set the CR Delivery Postcode as <CDPostcode>
+    And I have set the CR Consignee as <CConsignee>
+    And I have set the CR Delivery Address 1 as <CDAddress1>
+    And I have set the CR Delivery Address 2 as <CDAddress2>
+    And I have set the CR Delivery Town as <CDTown>
+    And I have set the CR Delivery County as <CDCounty>
+    And I have set the CR Delivery Service as <CDService>
+    And I have set the CR Delivery Contact as <CDContact>
+    And I have set the CR Delivery Phone 1 as <CDPhone1>
+    And I have set the CR Delivery Phone 2 as <CDPhone2>
+    And I have set the CR Delivery Email as <CDEmail>
+    And I have set the CR Pallet Type as <CPallet>
+    And I have set the CR Quantity as <CQuantity>
+    And I have set the CR Weight as <CWeight>
+    And I have clicked CR COP Box
+    And I have clicked the Collection Finish
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |"Depot User"     |"setup102"     |"beans"     | "ABM001"    | "C3530"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+    |"Hub User"       |"100avrilb"    |"beans"     | "tes"       | "C3531"     | "CKC"        | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKN"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+
+@C3526
+    Scenario Outline: Testing COP Image upload Collection Entry for Implant User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on collection request
+    And I have set the Collection Customer Ref as <CCustomerRef>
+    And I have clicked CR COP Box
+    And I have uploaded CR own paperwork
+    And I have uploaded CR own paperwork
+    And I have set the Collection Postcode as <CPostcode>
+    And I have set the Consignor as <Consignor>
+    And I have set the Collection Address 1 as <CAddress1>
+    And I have set the Collection Address 2  as <CAddress2>
+    And I have set the Collection Town as <CTown>
+    And I have set the Collection County as <CCounty>
+    And I have set the Collection Service as <CService>
+    And I have set the Collection Contact as <CContact>
+    And I have set the Collection Phone 1 as <CPhone1>
+    And I have set the Collection Phone 2 as <CPhone2>
+    And I have set the Collection Email as <CEmail>
+    And I have set the CR Delivery Postcode as <CDPostcode>
+    And I have set the CR Consignee as <CConsignee>
+    And I have set the CR Delivery Address 1 as <CDAddress1>
+    And I have set the CR Delivery Address 2 as <CDAddress2>
+    And I have set the CR Delivery Town as <CDTown>
+    And I have set the CR Delivery County as <CDCounty>
+    And I have set the CR Delivery Service as <CDService>
+    And I have set the CR Delivery Contact as <CDContact>
+    And I have set the CR Delivery Phone 1 as <CDPhone1>
+    And I have set the CR Delivery Phone 2 as <CDPhone2>
+    And I have set the CR Delivery Email as <CDEmail>
+    And I have set the CR Pallet Type as <CPallet>
+    And I have set the CR Quantity as <CQuantity>
+    And I have set the CR Weight as <CWeight>
+    And I have clicked the Collection Finish
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password    |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|
+    |"Implant User"   |"114LCRF"      |"beans"     | "C3526"     | "WT"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+
+@C3527 @C3528
+    Scenario Outline: Testing COP Image upload Collection Entry for Depot/Hub User 
+    Given I have logged in to TPN Connect with username <Username> and password <Password>       
+    When I have clicked on collection request
+    And I have set the Collection Account Code as <CAccountCode>
+    And I have clicked CR COP Box
+    And I have uploaded CR own paperwork
+    And I have set the Collection Customer Ref as <CCustomerRef>
+    And I have set the Collection Postcode as <CPostcode>
+    And I have set the Consignor as <Consignor>
+    And I have set the Collection Address 1 as <CAddress1>
+    And I have set the Collection Address 2  as <CAddress2>
+    And I have set the Collection Town as <CTown>
+    And I have set the Collection County as <CCounty>
+    And I have set the Collection Service as <CService>
+    And I have set the Collection Contact as <CContact>
+    And I have set the Collection Phone 1 as <CPhone1>
+    And I have set the Collection Phone 2 as <CPhone2>
+    And I have set the Collection Email as <CEmail>
+    And I have set the CR Delivery Postcode as <CDPostcode>
+    And I have set the CR Consignee as <CConsignee>
+    And I have set the CR Delivery Address 1 as <CDAddress1>
+    And I have set the CR Delivery Address 2 as <CDAddress2>
+    And I have set the CR Delivery Town as <CDTown>
+    And I have set the CR Delivery County as <CDCounty>
+    And I have set the CR Delivery Service as <CDService>
+    And I have set the CR Delivery Contact as <CDContact>
+    And I have set the CR Delivery Phone 1 as <CDPhone1>
+    And I have set the CR Delivery Phone 2 as <CDPhone2>
+    And I have set the CR Delivery Email as <CDEmail>
+    And I have set the CR Pallet Type as <CPallet>
+    And I have set the CR Quantity as <CQuantity>
+    And I have set the CR Weight as <CWeight>
+    And I have clicked the Collection Finish
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
+
+    Examples:
+    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |"Depot User"     |"setup102"     |"beans"     | "ABM001"    | "C3527"     | "WX"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKC"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
+    |"Hub User"       |"100avrilb"    |"beans"     | "tes"       | "C3528"     | "WT"         | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"CKN"      | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
