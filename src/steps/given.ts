@@ -41,6 +41,13 @@ Given('I have entered {string} as password', async function (password) {
     await LoginPage.enterPassword(password);    
 });
 
+Given('I have logged in with username {string} and password {string} and opened consignment entry', async function (username, password){
+    await LoginPage.enterUserName(username);
+    await LoginPage.enterPassword(password);
+    await LoginPage.clickLogin();
+    await LandingPage.clickconsignment();
+});
+
 // 
 // The statements below are left from the original webdriverio template
 // 
