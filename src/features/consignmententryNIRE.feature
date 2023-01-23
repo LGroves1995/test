@@ -109,8 +109,8 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username   |Password    |AccountCode |CustomerRef | Postcode | Consignee | Address1      | Address2    | Town   | County |Contact | Phone       | PalletWidth|PalletDepth | PalletHeight|XLPalletWeight|
-    |"Depot User"     |"seup101"   |"beans"    |"BAC001"    |"C2699"     | "GE4"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test" | "Test" |"LukeG" | "0123456789"| "120"      |"120"       |"200"        |"1000"        |
+    |UserType         |Username    |Password   |AccountCode |CustomerRef | Postcode | Consignee | Address1      | Address2    | Town   | County |Contact | Phone       | PalletWidth|PalletDepth | PalletHeight|XLPalletWeight|
+    |"Depot User"     |"setup101"  |"beans"    |"BAC001"    |"C2699"     | "GE4"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test" | "Test" |"LukeG" | "0123456789"| "120"      |"120"       |"200"        |"1000"        |
 
 @C2700
     Scenario Outline: Testing XL Consignment Entry for NIRE Implant User

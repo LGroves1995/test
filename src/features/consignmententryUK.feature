@@ -55,6 +55,7 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
@@ -141,9 +142,9 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
-    |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2440"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  |
-    |"Hub User"       |"099phillipt"  |"beans"     |"test"       | "C2441"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  |
+    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
+    |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2440"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  |
+    |"Hub User"       |"099phillipt"  |"beans"     |"test"     | "C2441"     | "RH11 0AA" | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  |
 
 @C2449
     Scenario Outline: Testing FVC Consignment Entry for Implant User 
@@ -168,6 +169,9 @@ Background:
     And I enter <InsuredAmount> as my Insured Amount
     And I click ok on the FVC approval
     And I click the Finish button
+    And I see a success message
+    And I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | InsuredName | InsuredEmail   | InsuredAmount |
@@ -202,9 +206,9 @@ Background:
     Then I click the LogOff button  
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | InsuredName | InsuredEmail   | InsuredAmount |
+    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town        | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight | InsuredName | InsuredEmail     | InsuredAmount |
     |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2450"     | "SW1 3RT"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
-    |"Hub User"       |"099phillipt"  |"beans"     |"test"       | "C2451"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
+    |"Hub User"       |"099phillipt"  |"beans"     |"test"     | "C2451"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
 
 @C2577
     Scenario Outline: Testing Local Postcode Consignment Entry for Implant User 
@@ -226,10 +230,11 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
-    |"Implant User"   |"051APLACE"    |"beans"     | "C2577"    | "TN5 7DL"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Implant User"   |"051APLACE"    |"beans"     | "C2577"    | "TN5 7DL"  | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2576 @C2578
     Scenario Outline: Testing Local Postcode Consignment Entry for Depot User/Hub User 
@@ -255,9 +260,9 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
     |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2576"     | "TN5 7DL"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
-    |"Hub User"       |"099phillipt"  |"beans"     |"test"       | "C2578"     | "B64 6TJ"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"099phillipt"  |"beans"     |"test"     | "C2578"     | "B64 6TJ"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2606 @C2607
     Scenario Outline: Testing Set Via Depot Consignment Entry for Depot User/Hub User 
@@ -287,9 +292,9 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |DepotNumber  | Reason                               |
+    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee  | Address1      | Address2    | Town      | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight |DepotNumber  | Reason                               |
     |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2606"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  | "069"       | "This is a Automated LukeG ran by IT" |
-    |"Hub User"       |"099phillipt"  |"beans"     |"test"       | "C2607"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  | "069"       | "This is a Automated LukeG ran by IT" |
+    |"Hub User"       |"099phillipt"  |"beans"     |"test"     | "C2607"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  | "069"       | "This is a Automated LukeG ran by IT" |
 
 @C2610
     Scenario Outline: Testing 7.5 Tonne Consignment Entry for Implant User 
@@ -312,10 +317,11 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
-    |"Implant User"   |"051APLACE"    |"beans"     | "C2610"    | "TN5 7DL"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Implant User"   |"051APLACE"    |"beans"     | "C2610"    | "TN5 7DL"  | "LukeG"    |"TPN Avenue"  | "TPN Road"  | "Birmingham"| "West Midlands" | "ND"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2611 @C2612
 
@@ -345,7 +351,7 @@ Background:
     Examples:
     |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
     |"Depot User"     |"051051SHAMEK" |"beans"     |"SAN"      | "C2611"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
-    |"Hub User"       |"099phillipt"  |"beans"     |"test"       | "C2612"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"099phillipt"  |"beans"     |"test"     | "C2612"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2616 @C2617 
 
@@ -400,6 +406,7 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | LimitedQuantity |
@@ -457,6 +464,7 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | 
@@ -513,6 +521,7 @@ Background:
     Then I click the Finish button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | 
@@ -588,6 +597,7 @@ Background:
     And I click the submit and complete button
     And I see a success message
     Then I see an 8 digit docket number
+    Then I click the LogOff button
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | CustomerEmail   | CommodityCode | InvoiceValue | NetWeight | GrossWeight | NumberPallets | DefermentType | AccountDAN   | FOB   | InvoiceNumber | IncoTerms | ExporterEORI    | ImporterEORI | ImporterPostcode |

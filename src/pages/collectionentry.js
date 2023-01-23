@@ -337,7 +337,7 @@ async setCRFVCAmount (CRInsuredAmount) {
 //Collection FVC Submit
 async clickCRFVCSubmit () {
     await this.collectionFVCSubmitBtn.click();
-    await browser.pause(3000);
+    await browser.pause(7000);
 }
 
 //Collection Set Collection Depot

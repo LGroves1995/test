@@ -1,4 +1,4 @@
-@ConnectRegression @IRECollectionsC2324
+@ConnectRegression @IRECollections
 Feature: Test that TPN Connect allows different collection requests for IRE users
     As a user
     I want to be able to put on a collection via TPN Connect
