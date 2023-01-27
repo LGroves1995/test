@@ -151,7 +151,7 @@ When('I have set the CR Insured Email as {string}', async function (CRInsuredEma
 });
 
 When('I have set the CR Insured Amount as {string}', async function (CRInsuredAmount) {
-    await CollectionEntry.setCRFVCEmail(CRInsuredAmount);
+    await CollectionEntry.setCRFVCAmount(CRInsuredAmount);
 });
 
 When('I have clicked the CR FVC Submit', async function () {
