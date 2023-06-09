@@ -16,9 +16,9 @@ Feature: Test that the TPN Connect login function works
 
         Examples:
           |UserType         |Username       |Password     |
-          |"Implant user"   |"051APLACE"    |"beans"      |
-          |"Depot user"     |"051051SHAMEK" |"beans"      |
-          |"Hub user"       |"099phillipt"  |"beans"      |
+          |"Implant user"   |"051APLACE"    |"magazine"   |
+          |"Depot user"     |"051051SHAMEK" |"magazine"   |
+          |"Hub user"       |"099phillipt"  |"magazine"   |
           
 @C3149 @C3150 @C3151 @InvalidLoginRegression
         Scenario Outline: a invalid user is attempting to login using an correct <UserType> username but wrong password     
