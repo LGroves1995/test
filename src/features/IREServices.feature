@@ -32,32 +32,32 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username        |Password   |CustomerRef | Postcode | Consignee | Address1     | Address2   | Town  | County | DelService | Contact | Phone        | Phone2     | Pallet | Quantity | Weight |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2886"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2889"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2894"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2898"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2901"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2905"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2957"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2963"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2969"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2972"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2975"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2978"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2981"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2987"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2990"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FW"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2993"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2996"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C2999"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3005"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3008"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3011"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3020"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3023"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3515"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
-    |"Implant User"   |"102Ability"    |"beans"    | "C3518"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
+    |UserType         |Username        |Password      |CustomerRef | Postcode | Consignee | Address1     | Address2   | Town  | County | DelService | Contact | Phone        | Phone2     | Pallet | Quantity | Weight |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2886"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2889"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2894"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2898"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2901"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2905"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2957"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2963"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2969"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2972"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2975"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2978"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2981"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2987"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2990"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FW"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2993"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2996"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2999"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3005"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3008"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3011"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3020"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3023"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3515"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |  
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3518"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |  
 
 @IREImplantTimedServices  @C2909 @C2915 @C3521 @C3026 @C3029 @C3032
     Scenario Outline: Testing different Timed Services Entries for Implant Users       
@@ -85,12 +85,12 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode| Consignee  | Address1     | Address2   | Town  |County  | DelService | Contact  | Phone        | Phone2     | Pallet | Quantity | Weight | Time  |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2909"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKSL"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"14:00"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2915"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BSTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"15:00"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C3521"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"10:00"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C3026"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "STTL"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"13:00"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C3029"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "TIME"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"12:00"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C3032"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "TMTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"11:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2909"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKSL"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"14:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2915"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BSTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"15:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3521"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"10:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3026"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "STTL"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"13:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3029"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "TIME"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"12:00"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C3032"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "TMTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"11:00"|
    
 @IREImplantDedicatedServices @C2920 @C2927 @C2930 @C2939 @C2942 @C2948
     Scenario Outline: Testing different Dedicated Day Services Entries for Implant Users       
@@ -118,12 +118,12 @@ Background:
 
     Examples:
     |UserType         |Username       |Password   |CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact | Phone         | Phone2     | Pallet | Quantity | Weight | Day        |
-    |"Implant User"   |"102Ability"    |"beans"    | "C2920"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAM"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2927"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2930"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAY"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2939"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDPM"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2942"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDPT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
-    |"Implant User"   |"102Ability"    |"beans"    | "C2948"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2920"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAM"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2927"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2930"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDAY"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2939"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDPM"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2942"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDPT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
+    |"Implant User"   |"102Ability"    |"magazine"    | "C2948"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTL"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|
 
 @IREImplantDedicatedTimeServices @C2933 @C2936 @C2951 @C2954
 
@@ -153,10 +153,10 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Phone2     | Pallet | Quantity | Weight | Day        | Time   |
-    |"Implant User"   |"102Ability"    |"beans"     | "C2933"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
-    |"Implant User"   |"102Ability"    |"beans"     | "C2936"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
-    |"Implant User"   |"102Ability"    |"beans"     | "C2951"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
-    |"Implant User"   |"102Ability"    |"beans"     | "C2954"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |
+    |"Implant User"   |"102Ability"    |"magazine"     | "C2933"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
+    |"Implant User"   |"102Ability"    |"magazine"     | "C2936"    | "D01"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
+    |"Implant User"   |"102Ability"    |"magazine"     | "C2951"    | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
+    |"Implant User"   |"102Ability"    |"magazine"     | "C2954"    | "CKC"   | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |
 
 @IREDepotStandardServices @C2887 @C2891 @C2895 @C2899 @C2902 @C2906 @C2958 @C2964 @C2970 @C2973 @C2976 @C2979 @C2982 @C2988 @C2991 @C2994 @C2997 @C3000 @C3006 @C3009 @C3012 @C3021 @C3024 @C3516 @C3519
     Scenario Outline: Testing different standard Services Entries for Depot Users       
@@ -184,31 +184,31 @@ Background:
 
     Examples:
     |UserType       |Username      |Password   |CustomerRef | Postcode | Consignee | Address1     | Address2   | Town  | County | DelService | Contact | Phone        | Phone2     | Pallet | Quantity | Weight | AccountCode | 
-    |"Depot User"   |"setup110"    |"beans"    | "C2887"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2891"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2895"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2899"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2902"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2906"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2958"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2964"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2970"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2973"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2976"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2979"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2982"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2988"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2991"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FWD"      | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2994"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C2997"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3000"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3006"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |  
-    |"Depot User"   |"setup110"    |"beans"    | "C3009"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3012"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3021"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3024"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3516"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Depot User"   |"setup110"    |"beans"    | "C3519"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2887"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2891"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2895"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2899"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2902"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2906"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2958"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2964"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2970"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2973"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2976"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2979"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2982"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2988"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2991"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FWD"      | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2994"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C2997"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3000"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3006"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |  
+    |"Depot User"   |"setup110"    |"magazine"    | "C3009"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3012"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3021"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3024"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3516"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Depot User"   |"setup110"    |"magazine"    | "C3519"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
 
 @IREDepotTimedServices @C2911 @C2916 @C3522 @C3027 @C3030 @C3033
     Scenario Outline: Testing different Timed Services Entries for Depot Users       
@@ -237,12 +237,12 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode| CustomerRef | Postcode| Consignee | Address1      | Address2    | Town  | County | DelService | Contact | Phone        | Phone2       | Pallet | Quantity | Weight | Time  | 
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2911"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BKSL"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"14:00"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2916"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BSTL"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"15:00"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C3522"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "SATT"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"10:00"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C3027"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "STTL"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13:00"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C3030"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TIME"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"12:00"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C3033"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TMTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"11:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2911"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BKSL"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"14:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2916"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BSTL"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"15:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C3522"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "SATT"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"10:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C3027"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "STTL"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C3030"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TIME"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"12:00"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C3033"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TMTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"11:00"|
 
 @IREDepotDedicatedServices @C2921 @C2928 @C2931 @C2940 @C2943 @C2949
     Scenario Outline: Testing different Dedicated Day Services Entries for Depot Users       
@@ -271,12 +271,12 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode | CustomerRef | Postcode | Consignee | Address1      | Address2    | Town | County | DelService | Contact | Phone        | Phone2       | Pallet | Quantity | Weight | Day        |
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2921"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAM"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"13/01/2023"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2928"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAT"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"13/01/2023"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2931"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAY"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2940"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPM"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|   
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2943"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPT"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
-    |"Depot User"     |"setup110" |"beans"     |"test"      | "C2949"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2921"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAM"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"13/01/2023"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2928"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAT"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"13/01/2023"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2931"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAY"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2940"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPM"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|   
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2943"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPT"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
+    |"Depot User"     |"setup110" |"magazine"     |"test"      | "C2949"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
 
 @IREDepotDedicatedTimeServices @C2933 @C2937 @C2952 @C2955
 
@@ -307,10 +307,10 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode  |CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Phone2     | Pallet | Quantity | Weight | Day        | Time   |
-    |"Depot" User"    |"setup110" |"beans"     |"test"       |"C2933"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
-    |"Depot User"     |"setup110" |"beans"     |"test"       |"C2937"     | "D01"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
-    |"Depot User"     |"setup110" |"beans"     |"test"       |"C2952"     | "WX"     | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
-    |"Depot User"     |"setup110" |"beans"     |"test"       |"C2955"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |
+    |"Depot" User"    |"setup110" |"magazine"     |"test"       |"C2933"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
+    |"Depot User"     |"setup110" |"magazine"     |"test"       |"C2937"     | "D01"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
+    |"Depot User"     |"setup110" |"magazine"     |"test"       |"C2952"     | "WX"     | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
+    |"Depot User"     |"setup110" |"magazine"     |"test"       |"C2955"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |
 
 @IREHubStandardServices @C2888 @C2892 @C2896 @C2900 @C2903 @C2907 @C2959 @C2965 @C2971 @C2974 @C2977 @C2980 @C2983 @C2989 @C2992 @C2995 @C2998 @C3001 @C3007 @C3010 @C3013 @C3022 @C3025 @C3517 @C3520
     
@@ -339,31 +339,31 @@ Background:
 
     Examples:
     |UserType       |Username      |Password   |CustomerRef | Postcode | Consignee | Address1     | Address2   | Town  | County | DelService | Contact | Phone        | Phone2     | Pallet | Quantity | Weight | AccountCode | 
-    |"Hub User"     |"setup100"    |"beans"    | "C2888"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2892"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2896"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2900"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2903"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2907"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2959"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2965"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2971"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2974"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2977"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2980"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2983"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2989"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2992"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FW"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2995"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C2998"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3001"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3007"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |  
-    |"Hub User"     |"setup100"    |"beans"    | "C3010"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3013"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3022"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3025"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3517"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
-    |"Hub User"     |"setup100"    |"beans"    | "C3520"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2888"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2892"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "AMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2896"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4"       | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2900"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "B4TL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2903"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIN"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2907"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "BKIT"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2959"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBIT"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2965"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EBKI"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2971"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2974"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHD"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2977"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECHL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2980"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ECTL"     | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2983"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EEC"      | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "25"   |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2989"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EECL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2992"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "FW"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2995"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C2998"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHD"     | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3001"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDHL"     | "LukeG" | "0123456789" |"0123456789"|"Quar"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3007"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "NDTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |  
+    |"Hub User"     |"setup100"    |"magazine"    | "C3010"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PM"       | "LukeG" | "0123456789" |"0123456789"|"Full"  | "1"      | "25"   |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3013"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "PMTL"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3022"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SAT"      | "LukeG" | "0123456789" |"0123456789"|"HH"    | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3025"    | "WX"     | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SATL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "25"   |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3517"    | "CKC"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSSS"     | "LukeG" | "0123456789" |"0123456789"|"Half"  | "1"      | "150"  |"test"       |
+    |"Hub User"     |"setup100"    |"magazine"    | "C3520"    | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "SSTL"     | "LukeG" | "0123456789" |"0123456789"|"FF"    | "1"      | "150"  |"test"       |
 
 @IREHubTimedServices @C2912 @C2917 @C3523 @C3028 @C3031 @C3034
    
@@ -393,12 +393,12 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode| CustomerRef | Postcode| Consignee | Address1      | Address2    | Town  | County | DelService | Contact | Phone        | Phone2       | Pallet | Quantity | Weight | Time  | 
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2912"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BKSL"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"14:00"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2917"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BSTL"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"15:00"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C3523"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "SATT"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"10:00"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C3028"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "STTL"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13:00"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C3031"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TIME"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"12:00"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C3034"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TMTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"11:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2912"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BKSL"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"14:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2917"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "BSTL"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"15:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C3523"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "SATT"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"10:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C3028"    | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "STTL"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C3031"    | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TIME"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"12:00"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C3034"    | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "TMTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"11:00"|
 
 @IREHubDedicatedServices @C2922 @C2929 @C2932 @C2941 @C2944 @C2950
     
@@ -428,12 +428,12 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode | CustomerRef | Postcode | Consignee | Address1      | Address2    | Town | County | DelService | Contact | Phone        | Phone2       | Pallet | Quantity | Weight | Day        |
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2922"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAM"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"13/01/2023"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2929"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAT"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"13/01/2023"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2932"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAY"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2941"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPM"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|   
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2944"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPT"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
-    |"Hub User"       |"setup100" |"beans"     |"test"      | "C2950"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2922"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAM"     | "LukeG" | "0123456789" | "0123456789" |"FF"    | "1"      | "150"  |"13/01/2023"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2929"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAT"     | "LukeG" | "0123456789" | "0123456789" |"HH"    | "1"      | "150"  |"13/01/2023"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2932"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDAY"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2941"     | "CKC"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPM"     | "LukeG" | "0123456789" | "0123456789" |"Half"  | "1"      | "150"  |"13/01/2023"|   
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2944"     | "D01"   | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDPT"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
+    |"Hub User"       |"setup100" |"magazine"     |"test"      | "C2950"     | "WX"    | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "Test" | "DDTL"     | "LukeG" | "0123456789" | "0123456789" |"Full"  | "1"      | "150"  |"13/01/2023"|
 
 @IREHubDedicatedTimeServices @C2934 @C2938 @C2953 @C2956
 
@@ -464,7 +464,7 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode  |CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Phone2     | Pallet | Quantity | Weight | Day        | Time   |
-    |"Depot" User"    |"setup100" |"beans"     |"test"       |"C2934"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
-    |"Depot User"     |"setup100" |"beans"     |"test"       |"C2938"     | "D01"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
-    |"Depot User"     |"setup100" |"beans"     |"test"       |"C2953"     | "WX"     | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
-    |"Depot User"     |"setup100" |"beans"     |"test"       |"C2956"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |
+    |"Depot" User"    |"setup100" |"magazine"     |"test"       |"C2934"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBS"     | "LukeG"  | "0123456789" |"0123456789"| "Full" | "1"      | "150"  |"23/12/2022"|"10:00" |
+    |"Depot User"     |"setup100" |"magazine"     |"test"       |"C2938"     | "D01"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDBT"     | "LukeG"  | "0123456789" |"0123456789"| "Half" | "1"      | "150"  |"23/12/2022"|"11:00" |
+    |"Depot User"     |"setup100" |"magazine"     |"test"       |"C2953"     | "WX"     | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTM"     | "LukeG"  | "0123456789" |"0123456789"| "HH"   | "1"      | "150"  |"23/12/2022"|"12:00" |
+    |"Depot User"     |"setup100" |"magazine"     |"test"       |"C2956"     | "CKC"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "DDTT"     | "LukeG"  | "0123456789" |"0123456789"| "FF"   | "1"      | "150"  |"23/12/2022"|"13:00" |

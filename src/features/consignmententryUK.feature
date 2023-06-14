@@ -58,7 +58,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee  | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
     |"Implant User"   |"051APLACE"    |"magazine"  | "C2287"    | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2334 @C2335
@@ -87,7 +87,7 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | PalletWidth |PalletDepth |PalletHeight| XLPalletWeight |
-    |"Depot User"     |"051051SHAMEK" |"magazine"  |"SAN"     | "C2334"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
+    |"Depot User"     |"051051SHAMEK" |"magazine"  |"SAN"      | "C2334"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
     |"Hub User"       |"099phillipt"  |"magazine"  |"test"     | "C2335"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
 
 @C2333 
@@ -114,7 +114,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    | CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | PalletWidth |PalletDepth |PalletHeight| XLPalletWeight |
+    |UserType         |Username       |Password       | CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | PalletWidth |PalletDepth |PalletHeight| XLPalletWeight |
     |"Implant User"   |"051APLACE"    |"magazine"     | "C2333"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
 
 @C2440 @C2441
@@ -175,7 +175,7 @@ Background:
 
     Examples:
     |UserType         |Username         |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town        | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight | InsuredName | InsuredEmail     | InsuredAmount |
-    |"Implant User"   |"069069Blueseal" |"magazine"  | "C2449"    | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
+    |"Implant User"   |"051APLACE"      |"magazine"  | "C2449"    | "B36 0EY"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
 
 @C2450 @C2451
     Scenario Outline: Testing FVC Consignment Entry for Depot/Hub User 
@@ -207,7 +207,7 @@ Background:
 
     Examples:
     |UserType         |Username       |Password       |AccountCode| CustomerRef | Postcode   | Consignee  | Address1     | Address2   | Town        | County          | DelService | Contact  | Phone        | Pallet | Quantity | Weight | InsuredName | InsuredEmail     | InsuredAmount |
-    |"Depot User"     |"setup069"     |"magazine"     |"ABSAIL"   | "C2450"     | "RH11 0AR" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
+    |"Depot User"     |"051051SHAMEK" |"magazine"     |"SAN"      | "C2450"     | "B36 0EY"  | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
     |"Hub User"       |"099phillipt"  |"magazine"     |"test"     | "C2451"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "ND"       | "LukeG"  | "0123456789" | "Quar" | "1"      | "150"  | "LUKE"      |"LukeG@LukeG.com" | "10"          |
 
 @C2577
@@ -600,7 +600,7 @@ Background:
 
     Examples:
     |UserType         |Username       |Password    |CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight | CustomerEmail     | CommodityCode | InvoiceValue | NetWeight | GrossWeight | NumberPallets | DefermentType | AccountDAN   | FOB   | InvoiceNumber | IncoTerms | ExporterEORI    | ImporterEORI | ImporterPostcode |
-    |"Implant User"   |"051APLACE"    |"magazine"  | "C2327"    | "WT"       | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "SSSS"     | "LukeG" | "0123456789" | "FF"   | "1"      | "150"  | "LukeG@LukeG.com" | "3214109000"  | "5525"       | "50"      | "60"        | "1"           | "Imp"         | "1234567"    | "5525"| "123"         | "DAP"     | "GB201321483000"| "IE4852153O" | "WT"             |
+    |"Implant User"   |"051APLACE"    |"magazine"  | "C2327"    | "WT"       | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Birmingham"| "West Midlands" | "SSSS"     | "LukeG" | "0123456789" | "FF"   | "1"      | "150"  | "LukeG@LukeG.com" | "3214109000"  | "5525"       | "50"      | "60"        | "1"           | "Imp"         | "1234567"    |"5525" | "123"         | "DAP"     | "GB201321483000"| "IE4862757G" | "WT"             |
 
 @C2328 @C2329
     Scenario Outline: Testing Standard Brexit Consignment Entry for Depot/Hub User 
