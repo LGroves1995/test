@@ -379,9 +379,9 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2    | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
-    |"Depot User"     |"051051SHAMEK" |"magazine"     |"SAN"      | "C2611"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
-    |"Hub User"       |"099phillipt"  |"magazine"     |"test"       | "C2612"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |UserType         |Username       |Password       |AccountCode| CustomerRef | Postcode   | Consignee | Address1      | Address2   | Town        | County          | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |"Depot User"     |"051051SHAMEK" |"magazine"     |"SAN"      | "C2616"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Hub User"       |"099phillipt"  |"magazine"     |"test"     | "C2617"     | "RH11 0AA" | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Birmingham"| "West Midlands" | "EC"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2620    
     Scenario Outline: Testing Limited Quantity Consignment Entry for Implant User 

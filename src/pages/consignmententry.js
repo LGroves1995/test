@@ -5,8 +5,8 @@ import page from './page'
 const basepath = require('path'); //this is for a file upload
 class ConsignmentEntryPage extends page {
 
-get accountCodeField () { return $ ('input[id="CE_ConsignorCode"]') }
-get accountCodeList () { return $ ('#CE_ConsignorCode-list') }
+get accountCodeField () { return $ ('#CE_ConsignorCode') }
+get accountCodeList () { return $ ('#CE_ConsignorCode_listbox') }
 get customerRefBox () { return $ ('#CE_CustomerReference') }
 get postcodeField () { return $ ('//*[@id="CE_DeliveryPostCode"]') }
 get consigneeNameField () { return $ ('//*[@id="CE_DeliveryConsigneeName"]') }
@@ -53,10 +53,8 @@ get rtdTickBox () { return $ ('#CE_RetailDelivery')}
 //Account Code Field
 async setAccountCode (accountCode) {
     await browser.pause(3000);
-    await this.accountCodeField.click();
-    await this.accountCodeField.waitForDisplayed();
     await this.accountCodeField.setValue(accountCode);
-    await this.accountCodeList.waitForDisplayed();
+    await this.accountCodeList.waitForDisplayed(15000);
     await pressButton("ArrowDown");
     await pressButton("Enter");
     await pressButton("Tab");
@@ -314,7 +312,7 @@ async clickLimitedQuantitySubmitBtn () {
 
 //COP Tick Box 
 async clickCOPTickBox () {
-    await browser.pause (1000);
+    await this.copTickBox.waitForClickable();
     await this.copTickBox.click();
 }
 
