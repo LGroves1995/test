@@ -82,7 +82,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |UserType         |Username       |Password       |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
     |"Depot User"     |"051051SHAMEK" |"magazine"     | "SAN"       | "C2325"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
     |"Hub User"       |"099phillipt"  |"magazine"     | "34"        | "C2326"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
@@ -124,7 +124,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |UserType         |Username       |Password      |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
     |"Depot User"     |"051051SHAMEK" |"magazine"    | "SAN"       | "C2447"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"PO18 0HB" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"EC"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
     |"Hub User"       |"099phillipt"  |"magazine"    | "34"        | "C2448"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"PO18 0HB" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"EC"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
@@ -498,7 +498,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |UserType         |Username       |Password       |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
     |"Depot User"     |"051051SHAMEK" |"magazine"     | "SAN"       | "C2580"     | "SA10 6AA"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"TN5 7DL"  | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
     |"Hub User"       |"099phillipt"  |"magazine"     | "34"        | "C2581"     | "LS10 1EE"   | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "EC"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"B24 0SG"  | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
@@ -540,7 +540,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CCollectionDepot|
+    |UserType         |Username       |Password       |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CCollectionDepot|
     |"Depot User"     |"051051SHAMEK" |"magazine"     | "SAN"       |"C2604"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"          |
     |"Hub User"       |"099phillipt"  |"magazine"     | "34"        |"C2605"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"          |
 
@@ -585,7 +585,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CDeliveryDepot|CDeliveryDepotReason                    |
+    |UserType         |Username       |Password       |CAccountCode |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight|CDeliveryDepot|CDeliveryDepotReason                    |
     |"Depot User"     |"051051SHAMEK" |"magazine"     | "SAN"       |"C2608"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"        |"This is an Automated Test ran by LukeG"|
     |"Hub User"       |"099phillipt"  |"magazine"     | "34"        |"C2609"      | "B36 8PT"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  | "052"        |"This is an Automated Test ran by LukeG"|
 
@@ -627,7 +627,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
+    |UserType         |Username       |Password       |CCustomerRef | CPostcode    | Consignor | CAddress1      | CAddress2  | CTown          | CCounty          | CService   | CContact | CPhone1     |CPhone2     | CEmail         |CDPostcode |CConsignee | CDAddress1 | CDAddress2 |CDTown |CDCounty |CDService | CDContact| CDPhone1    |CDPhone2    |CDEmail         | CPallet  | CQuantity  | CWeight| 
     |"Implant User"   |"051APLACE"    |"magazine"     | "C2613"     | "B36 0EY"    | "LukeG"   |"TPN Avenue"    | "TPN Road" | "Birmingham"   | "West Midlands"  | "AM"       | "LukeG" | "0123456789" |"0123456789"|"luke@lukeg.com"|"RH11 0AA" | "LukeG"   | "Test"     |"Test"      |"Test" |"Test"   |"ND"      | "LukeG"  | "0123456789"|"0123456789"|"luke@lukeg.com"| "Full"   | "1"        | "150"  |
 
 @C2614 @C2615

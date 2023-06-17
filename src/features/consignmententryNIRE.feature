@@ -56,7 +56,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2    | Town   | County   | DelService | Contact | Phone        | Pallet | Quantity | Weight |
+    |UserType         |Username       |Password     |AccountCode| CustomerRef | Postcode   | Consignee | Address1     | Address2    | Town | County   | DelService | Contact | Phone        | Pallet | Quantity | Weight |
     |"Depot User"     |"setup101"     |"magazine"   |"AV"       | "C2685"     | "D01"      | "LukeG"   |"TPN Avenue"  | "TPN Road"  |"Test"| "Test" | "B4"       | "LukeG" | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2698
@@ -136,7 +136,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username    |Password    | CustomerRef | Postcode  | Consignee | Address1      | Address2    | Town  | County | DelService | Contact  | Phone        | PalletWidth |PalletDepth |PalletHeight| XLPalletWeight |
+    |UserType         |Username    |Password      | CustomerRef | Postcode  | Consignee | Address1      | Address2    | Town  | County | DelService | Contact  | Phone        | PalletWidth |PalletDepth |PalletHeight| XLPalletWeight |
     |"Implant User"   |"101abv"    |"magazine"    | "C2700"     | "WX"      | "LukeG"   |"TPN Avenue"   | "TPN Road"  | "Test"| "test" | "XL"       | "LukeG"  | "0123456789" |  "240"      |"240"       | "150"      | "500"          |
 
 @C2701
@@ -193,7 +193,7 @@ Background:
 
     Examples:
     |UserType         |Username       |AccountCode |Password     |CustomerRef | Postcode  | Consignee  | Address1     | Address2   | Town   | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
-    |"Depot User"     |"setup101"     |"AV"    |"magazine"      |"C2702"     | "SA71 4TA"| "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test" | "Test" | "NDTL"     | "LukeG"  | "0123456789" | "Half" | "1"      | "150"  |
+    |"Depot User"     |"setup101"     |"AV"        |"magazine"      |"C2702"     | "SA71 4TA"| "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test" | "Test" | "NDTL"     | "LukeG"  | "0123456789" | "Half" | "1"      | "150"  |
 
 @C2703
     Scenario Outline: Testing FVC Consignment Entry for NIRE Implant User 
@@ -281,7 +281,7 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username   |Password     |CustomerRef| Postcode   | Consignee | Address1      | Address2   | Town        | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
+    |UserType         |Username   |Password        |CustomerRef| Postcode   | Consignee | Address1      | Address2   | Town        | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
     |"Implant User"   |"101abv"   |"magazine"      |"C2705"    | "WT"       | "LukeG"   |"TPN Avenue"   | "TPN Road" | "Test"      | "Test" | "AM"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2706 
@@ -339,8 +339,8 @@ Background:
     Then I click the LogOff button
 
     Examples:
-    |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |DepotNumber  | Reason                               |
-    |"Depot User"     |"setup101"     |"magazine"    |"AV"    | "C2710"     | "D02"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  | "110"       | "This is a Automated LukeG ran by IT" |
+    |UserType         |Username       |Password      |AccountCode| CustomerRef | Postcode | Consignee  | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |DepotNumber  | Reason                               |
+    |"Depot User"     |"setup101"     |"magazine"    |"AV"       | "C2710"     | "D02"    | "LukeG"    |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "ND"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  | "110"       | "This is a Automated LukeG ran by IT" |
 
 @C2711
     Scenario Outline: Testing 7.5 Tonne Consignment Entry for NIRE Implant User 
@@ -396,7 +396,7 @@ Background:
 
     Examples:
     |UserType         |Username   |Password    |AccountCode| CustomerRef | Postcode| Consignee  | Address1     | Address2    | Town | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight |
-    |"Depot User"     |"setup101" |"magazine"     |"AV"   | "C2712"     | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road"  |"Test"| "Test" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
+    |"Depot User"     |"setup101" |"magazine"  |"AV"       | "C2713"     | "WX"    | "LukeG"    |"TPN Avenue"  | "TPN Road"  |"Test"| "Test" | "ND"       | "LukeG"  | "0123456789" | "Full" | "1"      | "150"  |
 
 @C2715    
     Scenario Outline: Testing Limited Quantity Consignment Entry for NIRE Implant User 
@@ -455,7 +455,7 @@ Background:
     
     Examples:
     |UserType         |Username       |Password    |AccountCode| CustomerRef | Postcode | Consignee | Address1     | Address2   | Town  | County | DelService | Contact  | Phone        | Pallet | Quantity | Weight | LimitedQuantity |
-    |"Depot User"     |"setup101"     |"magazine"     |"AV"   | "C2715"     | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG"  | "0123456789" | "Half" | "3"      | "150"  | "1201"          |
+    |"Depot User"     |"setup101"     |"magazine"  |"AV"       | "C2715"     | "D01"    | "LukeG"   |"TPN Avenue"  | "TPN Road" | "Test"| "Test" | "EC"       | "LukeG"  | "0123456789" | "Half" | "3"      | "150"  | "1201"          |
 
 @C2717
     Scenario Outline: Testing COP No Image Attached Consignment Entry for NIRE Implant User 
@@ -513,7 +513,7 @@ Background:
     |"Depot User"     |"setup101" |"magazine"     |"AV"   | "C2718"     | "WX"     | "LukeG"    |"TPN Avenue"  | "TPN Road"  | "Test"| "Test" | "EC"       | "LukeG"  | "0123456789" | "Full" | "2"      | "150"  |   
 
 @C2719   
-    Scenario Outline: Testing COPImage Attached Consignment Entry for NIRE Implant User 
+    Scenario Outline: Testing COP Image Attached Consignment Entry for NIRE Implant User 
     Given I have logged in to TPN Connect with username <Username> and password <Password>       
     When I have clicked on consignment entry
     And I have entered the <CustomerRef> as my customer reference
